@@ -1,0 +1,15 @@
+<h1>Adopt a Cat Today!</h1>
+
+
+<ol>
+    <% @cats.each do |cat|%>
+    <li>
+        Name: <%= cat.name %> 
+        <br>
+        Age: <%= cat.age %> old 
+        <br>
+        Description: <%= cat.description %>!
+        <br></br>
+    </li>
+    <% end %>
+</ol>
